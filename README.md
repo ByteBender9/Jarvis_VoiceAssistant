@@ -16,23 +16,44 @@ GitHub: https://github.com/ByteBender9
 
 Repository: https://github.com/ByteBender9/Jarvis_VoiceAssistent
 
-📌 Introduction
+---
+
+## 📌 Introduction
 
 Jarvis is a Python-based desktop voice assistant that enables users to interact with their computer using voice commands. It leverages speech recognition and text-to-speech technologies to automate everyday tasks such as searching the web, opening websites, playing music, taking notes, capturing screenshots, and retrieving information from Wikipedia.
 
 The assistant greets the user based on the current time, listens to voice commands through the microphone, processes them, and performs the requested actions, providing a hands-free and user-friendly computing experience.
 
-⸻
+---
 
-📌 Technologies Used
+## 📌 Features
 
-* Python
-* HTML, CSS & JavaScript (Web Interface)
-* SQLite Database
+* 🎤 Voice-controlled interaction
+* 👋 Greets users based on the current time
+* 🕒 Displays current date and time
+* 🌐 Opens websites
+* 🔍 Google search
+* 📖 Wikipedia search
+* 🎵 Plays music
+* 📝 Creates and saves notes
+* 📷 Takes screenshots with custom filenames
+* 🔒 Face authentication support
+* 💻 Desktop automation
+* 📴 Voice command to exit the assistant
 
-⸻
+---
 
-📌 Python Libraries
+## 🛠️ Tech Stack
+
+- Python
+- HTML
+- CSS
+- JavaScript
+- SQLite
+
+---
+
+## 📌 Python Libraries
 
 🔹 pyttsx3
 
@@ -66,26 +87,106 @@ Generates random values for assistant responses where required.
 
 Automates keyboard and mouse actions, including taking screenshots.
 
-⸻
+---
 
-📌 Features
+## 📂 Project Structure
 
-* 🎤 Voice-controlled interaction
-* 👋 Greets users based on the current time
-* 🕒 Displays current date and time
-* 🌐 Opens websites
-* 🔍 Google search
-* 📖 Wikipedia search
-* 🎵 Plays music
-* 📝 Creates and saves notes
-* 📷 Takes screenshots with custom filenames
-* 🔒 Face authentication support
-* 💻 Desktop automation
-* 📴 Voice command to exit the assistant
+```
+Jarvis_VoiceAssistent/
+│
+├── engine/
+│   ├── auth/
+│   ├── command.py
+│   ├── config.py
+│   ├── helper.py
+│   └── ...
+│
+├── www/
+│   ├── assets/
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+│
+├── main.py
+├── run.py
+├── device.sh
+├── README.md
+├── LICENSE
+└── requirements.txt
+```
+---
 
-⸻
+## 📋 Requirements
 
-📌 Why Use Jarvis?
+- Python 3.9+
+- Microphone
+- Internet connection (for online features)
+- Webcam (for face authentication)
+
+---
+
+
+## 📦 Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/ByteBender9/Jarvis_VoiceAssistent.git
+```
+
+### Navigate to the project
+
+```bash
+cd Jarvis_VoiceAssistent
+```
+
+### Create a virtual environment (Optional)
+
+```bash
+python -m venv venv
+```
+
+### Activate the virtual environment
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**macOS / Linux**
+
+```bash
+source venv/bin/activate
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Running the Project
+
+Start the voice assistant by running:
+
+```bash
+python run.py
+```
+
+or
+
+```bash
+python main.py
+```
+
+(**Note:** Run `main.py` or `run.py` depending on your project configuration.)
+
+---
+
+## 📌 Why Use Jarvis?
 
 * Hands-free computer interaction
 * Improves productivity by automating routine tasks
@@ -94,9 +195,9 @@ Automates keyboard and mouse actions, including taking screenshots.
 * Supports both voice and keyboard input
 * Can be customized with additional commands
 
-⸻
+---
 
-📌 Advantages
+## 📌 Advantages
 
 * User-friendly interface
 * Hands-free desktop control
@@ -105,18 +206,18 @@ Automates keyboard and mouse actions, including taking screenshots.
 * Helpful for accessibility
 * Modular and expandable architecture
 
-⸻
+---
 
-📌 Limitations
+## 📌 Limitations
 
 * Voice recognition accuracy decreases in noisy environments
 * Limited natural language understanding compared to cloud AI assistants
 * Performance depends on microphone quality
 * Requires Python dependencies to be installed
 
-⸻
+---
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 
 * AI chatbot integration (GPT/LLMs)
 * Smarter Natural Language Processing
@@ -127,11 +228,13 @@ Automates keyboard and mouse actions, including taking screenshots.
 * Email and calendar management
 * Advanced desktop automation
 
-⸻
+---
 
-📌 Conclusion
+## 📌 Conclusion
 
 Jarvis demonstrates how artificial intelligence and speech recognition can simplify everyday computer interaction through voice commands. The project combines multiple Python libraries to provide a practical desktop automation solution and serves as a strong foundation for building more advanced AI-powered personal assistants in the future.
+
+---
 
 ## 🤝 Contributing
 
@@ -149,6 +252,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## 📬 Contact
 **Kushal Sarkar**
-GitHub: https://github.com/ByteBender9
-LinkedIn: https://www.linkedin.com/in/kushalsarkar
-Email: connect.kushals@gmail.com
+- GitHub: https://github.com/ByteBender9
+- LinkedIn: https://www.linkedin.com/in/kushalsarkar
+- Email: connect.kushals@gmail.com
