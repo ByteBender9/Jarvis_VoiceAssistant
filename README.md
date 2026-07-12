@@ -8,13 +8,7 @@ A Python-based desktop voice assistant that automates everyday desktop tasks usi
 
 **Kushal Sarkar**
 
-🎓 Diploma in Computer Science & Engineering
-
-🏫 Techno Polytechnic Durgapur
-
-GitHub: https://github.com/ByteBender9
-
-Repository: https://github.com/ByteBender9/Jarvis_VoiceAssistent
+🎓 Diploma in Computer Science & Technology
 
 ---
 
@@ -230,6 +224,14 @@ python main.py
 
 ---
 
+## 🙏 Acknowledgements
+
+This project was developed as part of my learning journey in Python, speech recognition, and desktop automation.
+
+Special thanks to the open-source community and the developers of the Python libraries used in this project, including SpeechRecognition, pyttsx3, Eel, OpenCV, and PyAutoGUI, for making this project possible.
+
+---
+
 ## 📌 Conclusion
 
 Jarvis demonstrates how artificial intelligence and speech recognition can simplify everyday computer interaction through voice commands. The project combines multiple Python libraries to provide a practical desktop automation solution and serves as a strong foundation for building more advanced AI-powered personal assistants in the future.
@@ -241,6 +243,20 @@ Jarvis demonstrates how artificial intelligence and speech recognition can simpl
 Contributions, suggestions, and improvements are welcome.
 
 If you'd like to contribute, feel free to fork the repository and submit a pull request.
+
+---
+
+## 💬 Support
+
+If you encounter any issues or have suggestions for improvement, feel free to open an issue in this repository.
+
+For questions or feedback, you can also contact me through:
+
+---
+
+- GitHub: https://github.com/ByteBender9
+- LinkedIn: https://www.linkedin.com/in/kushalsarkar
+- Email: connect.kushals@gmail.com
 
 ---
 
