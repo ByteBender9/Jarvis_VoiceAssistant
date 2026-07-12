@@ -227,7 +227,6 @@ python main.py
 ## 🙏 Acknowledgements
 
 This project was developed as part of my learning journey in Python, speech recognition, and desktop automation.
-
 Special thanks to the open-source community and the developers of the Python libraries used in this project, including SpeechRecognition, pyttsx3, Eel, OpenCV, and PyAutoGUI, for making this project possible.
 
 ---
@@ -251,12 +250,6 @@ If you'd like to contribute, feel free to fork the repository and submit a pull 
 If you encounter any issues or have suggestions for improvement, feel free to open an issue in this repository.
 
 For questions or feedback, you can also contact me through:
-
----
-
-- GitHub: https://github.com/ByteBender9
-- LinkedIn: https://www.linkedin.com/in/kushalsarkar
-- Email: connect.kushals@gmail.com
 
 ---
 
