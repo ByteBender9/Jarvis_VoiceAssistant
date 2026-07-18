@@ -15,7 +15,7 @@ def start():
 
     @eel.expose
     def init():
-        subprocess.call(['bash', 'device.sh'])  # Ensure this script has executable permission
+        subprocess.call(['bash', 'device.sh'])
         eel.hideLoader()
         speak("Ready for Face Authentication")
         flag = recoganize.AuthenticateFace()
@@ -29,7 +29,7 @@ def start():
         else:
             speak("Face Authentication Fail")
 
-    # Launch Chrome in app mode using a thread
+#launch on browser
     def open_chrome():
         time.sleep(2)
         chrome_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"

@@ -85,28 +85,38 @@ Automates keyboard and mouse actions, including taking screenshots.
 
 ## 📂 Project Structure
 
-```
+```text
 Jarvis_VoiceAssistent/
 │
 ├── engine/
 │   ├── auth/
+│   │   ├── samples/
+│   │   ├── trainer/
+│   │   ├── haarcascade_frontalface_default.xml
+│   │   ├── recoganize.py
+│   │   ├── sample.py
+│   │   └── trainer.py
 │   ├── command.py
 │   ├── config.py
-│   ├── helper.py
-│   └── ...
+│   ├── db.py
+│   ├── features.py
+│   └── helper.py
 │
 ├── www/
 │   ├── assets/
+│   ├── controller.js
 │   ├── index.html
+│   ├── main.js
 │   ├── script.js
 │   └── style.css
 │
+├── device.sh
 ├── main.py
 ├── run.py
-├── device.sh
-├── README.md
+├── requirements.txt
 ├── LICENSE
-└── requirements.txt
+├── README.md
+└── .gitignore
 ```
 ---
 
@@ -118,7 +128,6 @@ Jarvis_VoiceAssistent/
 - Webcam (for face authentication)
 
 ---
-
 
 ## 📦 Installation
 
